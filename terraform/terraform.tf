@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "devops-bucket07"
+    bucket = "3-tier-react-quiz-iac"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
